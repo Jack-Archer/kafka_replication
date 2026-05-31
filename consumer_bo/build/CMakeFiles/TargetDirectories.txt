@@ -1,0 +1,3 @@
+/media/papa_archer_xi/GIT/v6-cpp-redos/station/tests/replica/consumer_bo/build/CMakeFiles/rdkafka_consumer.dir
+/media/papa_archer_xi/GIT/v6-cpp-redos/station/tests/replica/consumer_bo/build/CMakeFiles/edit_cache.dir
+/media/papa_archer_xi/GIT/v6-cpp-redos/station/tests/replica/consumer_bo/build/CMakeFiles/rebuild_cache.dir

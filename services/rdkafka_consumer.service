@@ -1,0 +1,19 @@
+[Unit]
+Description=MCC Rdkafka Consumer Service
+#After=network.target postgresql-17.service omniNames.service
+Before=display-manager.service
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/opt/rdkafka_consumer
+ExecStart=/opt/rdkafka_consumer/rdkafka_consumer
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=300
+
+PrivateTmp=no
+
+[Install]
+WantedBy=multi-user.target

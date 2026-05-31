@@ -1,0 +1,3 @@
+/media/papa_archer_xi/GIT/v6-cpp-redos/station/tests/replica/producer_azs/build/CMakeFiles/rdkafka_producer.dir
+/media/papa_archer_xi/GIT/v6-cpp-redos/station/tests/replica/producer_azs/build/CMakeFiles/edit_cache.dir
+/media/papa_archer_xi/GIT/v6-cpp-redos/station/tests/replica/producer_azs/build/CMakeFiles/rebuild_cache.dir

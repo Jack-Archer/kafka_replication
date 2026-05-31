@@ -1,0 +1,19 @@
+[Unit]
+Description=MCC Rdkafka Producer Service
+#After=network.target postgresql-17.service omniNames.service
+Before=display-manager.service
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/opt/rdkafka_producer
+ExecStart=/opt/rdkafka_producer/rdkafka_producer
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=300
+
+PrivateTmp=no
+
+[Install]
+WantedBy=multi-user.target
